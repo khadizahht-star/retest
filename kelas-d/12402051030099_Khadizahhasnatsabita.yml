@@ -1,0 +1,1269 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: powershell.exe
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: C:\Users\lahya\Documents\xiao
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 120
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 30
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+  
+  # The size of the font
+  fontSize: 12
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 593
+    content: "\e[?9001h\e[?1004h"
+  - delay: 204
+    content: "\e[?25l\e[2J\e[m\e[HWindows PowerShell\r\nCopyright (C) Microsoft Corporation. All rights reserved.\e[4;1HInstall the latest PowerShell for new features and improvements! https://aka.ms/PSWindows\e]0;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe\a\e[?25h"
+  - delay: 12
+    content: "\e[?25l\e[6;1H\e[?25h"
+  - delay: 363
+    content: 'PS C:\Users\lahya\Documents\xiao> '
+  - delay: 9384
+    content: "\e[?25l"
+  - delay: 20
+    content: "\e[93mmysql \e[90m-u \e[37mroot \e[90m-p\e[?25h"
+  - delay: 956
+    content: "\e[m\r\n"
+  - delay: 64
+    content: E
+  - delay: 16
+    content: 'nter password: '
+  - delay: 811
+    content: '*'
+  - delay: 202
+    content: '*'
+  - delay: 96
+    content: '*'
+  - delay: 126
+    content: '*'
+  - delay: 137
+    content: '*'
+  - delay: 253
+    content: '*'
+  - delay: 97
+    content: '*'
+  - delay: 181
+    content: '*'
+  - delay: 387
+    content: '*'
+  - delay: 103
+    content: '*'
+  - delay: 157
+    content: '*'
+  - delay: 102
+    content: '*'
+  - delay: 384
+    content: "\r\n"
+  - delay: 61
+    content: Welcome to the MariaDB monitor.  Commands end with ; or \g.
+  - delay: 22
+    content: "\e[?25l\r\nYour MariaDB connection id is 18\r\nServer version: 12.1.2-MariaDB MariaDB Server\e[12;1HCopyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.\e[14;1HType 'help;' or '\\h' for help. Type '\\c' to clear the current input statement.\e[16;1HMariaDB [(none)]> \e[?25h"
+  - delay: 2311
+    content: s
+  - delay: 176
+    content: h
+  - delay: 121
+    content: o
+  - delay: 140
+    content: w
+  - delay: 466
+    content: ' '
+  - delay: 377
+    content: d
+  - delay: 125
+    content: a
+  - delay: 166
+    content: t
+  - delay: 115
+    content: a
+  - delay: 178
+    content: b
+  - delay: 122
+    content: a
+  - delay: 184
+    content: s
+  - delay: 201
+    content: e
+  - delay: 192
+    content: s
+  - delay: 520
+    content: ;
+  - delay: 308
+    content: "\r\n"
+  - delay: 16
+    content: "+--------------------------+\r\n| Database                 |\r\n+--------------------------+\r\n| information_schema       |\r\n| mysql                    |\r\n| performance_schema       |\r\n| perpusnyabita            |\r\n| perpustakaan             |\r\n| sistem_cuti              |\r\n| sistem_kalender          |\r\n| sistem_kalender2         |\r\n| sistem_peminjaman_barang |\r\n| sys                      |\r\n| test                     |\r\n+--------------------------+\r\n11 rows in set (0.012 sec)\r\n\nMariaDB [(none)]>\e[1C"
+  - delay: 1551
+    content: c
+  - delay: 331
+    content: r
+  - delay: 134
+    content: e
+  - delay: 233
+    content: a
+  - delay: 227
+    content: t
+  - delay: 182
+    content: e
+  - delay: 173
+    content: ' '
+  - delay: 311
+    content: d
+  - delay: 109
+    content: a
+  - delay: 201
+    content: t
+  - delay: 139
+    content: a
+  - delay: 297
+    content: b
+  - delay: 835
+    content: a
+  - delay: 156
+    content: s
+  - delay: 199
+    content: e
+  - delay: 1121
+    content: ' '
+  - delay: 29052
+    content: s
+  - delay: 440
+    content: o
+  - delay: 140
+    content: p
+  - delay: 205
+    content: i
+  - delay: 142
+    content: t
+  - delay: 909
+    content: "\e[?25l\e[30;35H     \e[30;35H\e[?25h"
+  - delay: 460
+    content: s
+  - delay: 449
+    content: o
+  - delay: 223
+    content: p
+  - delay: 243
+    content: i
+  - delay: 128
+    content: r
+  - delay: 533
+    content: ;
+  - delay: 266
+    content: "\r\nQuery OK, 1 row affected (0.003 sec)\r\n"
+  - delay: 11
+    content: "\nMariaDB [(none)]>\e[1C"
+  - delay: 2053
+    content: u
+  - delay: 129
+    content: s
+  - delay: 239
+    content: e
+  - delay: 628
+    content: ' '
+  - delay: 471
+    content: s
+  - delay: 151
+    content: o
+  - delay: 170
+    content: p
+  - delay: 224
+    content: i
+  - delay: 182
+    content: r
+  - delay: 1309
+    content: ;
+  - delay: 293
+    content: "\r\nDatabase changed"
+  - delay: 22
+    content: "\r\nMariaDB [sopir]>\e[1C"
+  - delay: 50581
+    content: "CREATE TABLE sopir (\r\n    ->     id_sopir INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     nama_sopir VARCHAR(100),\r\n    ->     no_sim VARCHAR(50),\r\n    ->     jenis_sim VARCHAR(10),\r\n    ->     alamat TEXT,\r\n    ->     no_hp VARCHAR(20),\r\n    ->     status_sopir ENUM('aktif', 'nonaktif')\r"
+  - delay: 10
+    content: |2-
+
+          -> );
+  - delay: 1174
+    content: "\r\n"
+  - delay: 14
+    content: "Query OK, 0 rows affected (0.013 sec)\r\n\n"
+  - delay: 17
+    content: 'MariaDB [sopir]> '
+  - delay: 24542
+    content: "INSERT INTO sopir (nama_sopir, no_sim, jenis_sim, alamat, no_hp, status_sopir)\r\n"
+  - delay: 18
+    content: '    -> VALUES'
+  - delay: 4961
+    content: "\r\n"
+  - delay: 24
+    content: '    -> '
+  - delay: 3305
+    content: (
+  - delay: 919
+    content: ''''
+  - delay: 568
+    content: 'n'
+  - delay: 91
+    content: a
+  - delay: 114
+    content: j
+  - delay: 144
+    content: w
+  - delay: 126
+    content: a
+  - delay: 136
+    content: 'n'
+  - delay: 1094
+    content: ''''
+  - delay: 715
+    content: ','
+  - delay: 315
+    content: ' '
+  - delay: 1634
+    content: ''''
+  - delay: 20539
+    content: S
+  - delay: 232
+    content: I
+  - delay: 242
+    content: M
+  - delay: 406
+    content: '1'
+  - delay: 147
+    content: '2'
+  - delay: 266
+    content: '3'
+  - delay: 284
+    content: '4'
+  - delay: 227
+    content: '5'
+  - delay: 1242
+    content: ''''
+  - delay: 236
+    content: ','
+  - delay: 2343
+    content: ' '
+  - delay: 762
+    content: ''''
+  - delay: 1088
+    content: B
+  - delay: 627
+    content: ''''
+  - delay: 992
+    content: ','
+  - delay: 399
+    content: ' '
+  - delay: 1280
+    content: ''''
+  - delay: 941
+    content: d
+  - delay: 110
+    content: e
+  - delay: 425
+    content: p
+  - delay: 489
+    content: o
+  - delay: 206
+    content: k
+  - delay: 809
+    content: ''''
+  - delay: 1039
+    content: ','
+  - delay: 1094
+    content: ' '
+  - delay: 642
+    content: ''''
+  - delay: 630
+    content: '0'
+  - delay: 771
+    content: '8'
+  - delay: 343
+    content: '7'
+  - delay: 249
+    content: '6'
+  - delay: 194
+    content: '1'
+  - delay: 184
+    content: '2'
+  - delay: 259
+    content: '5'
+  - delay: 131
+    content: '3'
+  - delay: 192
+    content: '4'
+  - delay: 713
+    content: '6'
+  - delay: 996
+    content: ''''
+  - delay: 320
+    content: ','
+  - delay: 1127
+    content: ' '
+  - delay: 4872
+    content: ''''
+  - delay: 152
+    content: a
+  - delay: 219
+    content: k
+  - delay: 278
+    content: t
+  - delay: 145
+    content: i
+  - delay: 138
+    content: f
+  - delay: 756
+    content: ''''
+  - delay: 1503
+    content: )
+  - delay: 1300
+    content: ','
+  - delay: 393
+    content: "\r\n"
+  - delay: 12
+    content: '    -> '
+  - delay: 1404
+    content: (
+  - delay: 710
+    content: ''''
+  - delay: 581
+    content: k
+  - delay: 106
+    content: a
+  - delay: 139
+    content: l
+  - delay: 110
+    content: a
+  - delay: 168
+    content: m
+  - delay: 700
+    content: ''''
+  - delay: 745
+    content: ','
+  - delay: 429
+    content: ' '
+  - delay: 381
+    content: ''''
+  - delay: 745
+    content: S
+  - delay: 1125
+    content: I
+  - delay: 278
+    content: M
+  - delay: 1389
+    content: '9'
+  - delay: 269
+    content: '8'
+  - delay: 260
+    content: '7'
+  - delay: 274
+    content: '6'
+  - delay: 4689
+    content: '5'
+  - delay: 1071
+    content: ''''
+  - delay: 1098
+    content: ','
+  - delay: 343
+    content: ' '
+  - delay: 947
+    content: ''''
+  - delay: 557
+    content: F
+  - delay: 657
+    content: ''''
+  - delay: 1011
+    content: ','
+  - delay: 356
+    content: ' '
+  - delay: 597
+    content: ''''
+  - delay: 2337
+    content: j
+  - delay: 91
+    content: a
+  - delay: 128
+    content: k
+  - delay: 117
+    content: a
+  - delay: 352
+    content: r
+  - delay: 1142
+    content: t
+  - delay: 156
+    content: a
+  - delay: 768
+    content: ''''
+  - delay: 569
+    content: ','
+  - delay: 459
+    content: ' '
+  - delay: 612
+    content: ''''
+  - delay: 440
+    content: '0'
+  - delay: 546
+    content: '9'
+  - delay: 301
+    content: '7'
+  - delay: 260
+    content: '6'
+  - delay: 260
+    content: '1'
+  - delay: 198
+    content: '4'
+  - delay: 141
+    content: '2'
+  - delay: 166
+    content: '5'
+  - delay: 853
+    content: '2'
+  - delay: 982
+    content: ''''
+  - delay: 378
+    content: ','
+  - delay: 457
+    content: ' '
+  - delay: 1168
+    content: ''''
+  - delay: 431
+    content: a
+  - delay: 145
+    content: k
+  - delay: 260
+    content: t
+  - delay: 136
+    content: i
+  - delay: 136
+    content: f
+  - delay: 1122
+    content: ''''
+  - delay: 1088
+    content: )
+  - delay: 2330
+    content: ;
+  - delay: 618
+    content: "\r\n"
+  - delay: 5
+    content: "Query OK, 2 rows affected (0.005 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 6
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 2104
+    content: s
+  - delay: 1097
+    content: e
+  - delay: 121
+    content: l
+  - delay: 98
+    content: e
+  - delay: 188
+    content: c
+  - delay: 128
+    content: t
+  - delay: 658
+    content: ' '
+  - delay: 497
+    content: '*'
+  - delay: 332
+    content: ' '
+  - delay: 254
+    content: f
+  - delay: 132
+    content: r
+  - delay: 112
+    content: o
+  - delay: 239
+    content: m
+  - delay: 943
+    content: ' '
+  - delay: 166
+    content: s
+  - delay: 137
+    content: o
+  - delay: 178
+    content: p
+  - delay: 197
+    content: i
+  - delay: 139
+    content: r
+  - delay: 635
+    content: ;
+  - delay: 251
+    content: "\r\n+----------+------------+----------+-----------+---------+------------+--------------+\r\n| id_sopir | nama_sopir | no_sim   | jenis_sim | alamat  | no_hp      | status_sopir |\r\n+----------+------------+----------+-----------+---------+------------+--------------+\r\n|        1 | najwan     | SIM12345 | B         | depok   | 0876125346 | aktif        |\r\n|        2 | kalam      | SIM98765 | F         | jakarta | 097614252  | aktif        |\r\n+----------+------------+----------+-----------+---------+------------+--------------+\r\n2 rows in set (0.000 sec)\r\n"
+  - delay: 12
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 12160
+    content: "CREATE TABLE kendaraan (\r\n    ->     id_kendaraan INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     plat_nomor VARCHAR(15),\r\n    ->     jenis_kendaraan VARCHAR(50),\r\n    ->     merk VARCHAR(50),\r\n    ->     tahun INT,\r\n    ->     status_kendaraan ENUM('aktif', 'perbaikan')\r"
+  - delay: 9
+    content: |2-
+
+          -> );
+  - delay: 1076
+    content: "\r\n"
+  - delay: 9
+    content: "Query OK, 0 rows affected (0.009 sec)\r\n"
+  - delay: 11
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 59143
+    content: "INSERT INTO kendaraan \r\n    -> (plat_nomor, jenis_kendaraan, merk, tahun, status_kendaraan)\r"
+  - delay: 11
+    content: |2-
+
+          -> VALUES
+  - delay: 2245
+    content: "\r\n"
+  - delay: 21
+    content: '    -> '
+  - delay: 1209
+    content: (
+  - delay: 1270
+    content: ''''
+  - delay: 930
+    content: B
+  - delay: 5714
+    content: ''''
+  - delay: 697
+    content: ','
+  - delay: 2267
+    content: "\e[?25l\e[30;8H     \e[30;8H\e[?25h"
+  - delay: 9955
+    content: (
+  - delay: 2416
+    content: ''''
+  - delay: 970
+    content: B
+  - delay: 380
+    content: ' '
+  - delay: 464
+    content: '1'
+  - delay: 172
+    content: '2'
+  - delay: 210
+    content: '3'
+  - delay: 243
+    content: '4'
+  - delay: 1005
+    content: ' '
+  - delay: 940
+    content: A
+  - delay: 284
+    content: O
+  - delay: 269
+    content: A
+  - delay: 836
+    content: ''''
+  - delay: 330
+    content: ','
+  - delay: 1153
+    content: ' '
+  - delay: 1846
+    content: ''''
+  - delay: 5539
+    content: m
+  - delay: 87
+    content: m
+  - delay: 84
+    content: o
+  - delay: 1031
+    content: "\e[?25l\e[30;23H    \e[30;23H\e[?25h"
+  - delay: 786
+    content: ''''
+  - delay: 544
+    content: m
+  - delay: 183
+    content: o
+  - delay: 111
+    content: t
+  - delay: 112
+    content: o
+  - delay: 116
+    content: r
+  - delay: 449
+    content: ''''
+  - delay: 728
+    content: ','
+  - delay: 782
+    content: ' '
+  - delay: 629
+    content: ''''
+  - delay: 22135
+    content: h
+  - delay: 428
+    content: o
+  - delay: 193
+    content: 'n'
+  - delay: 109
+    content: d
+  - delay: 93
+    content: a
+  - delay: 567
+    content: ''''
+  - delay: 648
+    content: ','
+  - delay: 859
+    content: ' '
+  - delay: 6096
+    content: '2'
+  - delay: 323
+    content: '0'
+  - delay: 1597
+    content: '2'
+  - delay: 349
+    content: '2'
+  - delay: 915
+    content: "\e[?25l\e[30;41H    \e[30;41H\e[?25h"
+  - delay: 643
+    content: ''''
+  - delay: 216
+    content: '2'
+  - delay: 199
+    content: '0'
+  - delay: 156
+    content: '2'
+  - delay: 148
+    content: '2'
+  - delay: 518
+    content: ''''
+  - delay: 652
+    content: ','
+  - delay: 217
+    content: ' '
+  - delay: 8842
+    content: ''''
+  - delay: 743
+    content: a
+  - delay: 525
+    content: k
+  - delay: 141
+    content: f
+  - delay: 1448
+    content: "\e[?25l\e[30;49H    \e[30;49H\e[?25h"
+  - delay: 967
+    content: ''''
+  - delay: 718
+    content: a
+  - delay: 229
+    content: k
+  - delay: 264
+    content: t
+  - delay: 145
+    content: i
+  - delay: 193
+    content: f
+  - delay: 497
+    content: ''''
+  - delay: 1424
+    content: )
+  - delay: 744
+    content: ','
+  - delay: 671
+    content: "\r\n"
+  - delay: 21
+    content: '    -> '
+  - delay: 1046
+    content: (
+  - delay: 1831
+    content: ''''
+  - delay: 1000
+    content: F
+  - delay: 563
+    content: ' '
+  - delay: 1876
+    content: '5'
+  - delay: 310
+    content: '6'
+  - delay: 330
+    content: '7'
+  - delay: 271
+    content: '8'
+  - delay: 1407
+    content: ' '
+  - delay: 702
+    content: A
+  - delay: 268
+    content: O
+  - delay: 207
+    content: A
+  - delay: 1036
+    content: ''''
+  - delay: 1039
+    content: ','
+  - delay: 333
+    content: ' '
+  - delay: 601
+    content: ''''
+  - delay: 626
+    content: m
+  - delay: 193
+    content: o
+  - delay: 250
+    content: b
+  - delay: 233
+    content: i
+  - delay: 270
+    content: l
+  - delay: 705
+    content: ''''
+  - delay: 999
+    content: ','
+  - delay: 361
+    content: ' '
+  - delay: 597
+    content: ''''
+  - delay: 6191
+    content: t
+  - delay: 138
+    content: o
+  - delay: 634
+    content: 'y'
+  - delay: 252
+    content: o
+  - delay: 252
+    content: t
+  - delay: 157
+    content: a
+  - delay: 177
+    content: ' '
+  - delay: 153
+    content: a
+  - delay: 141
+    content: v
+  - delay: 142
+    content: a
+  - delay: 452
+    content: 'n'
+  - delay: 187
+    content: z
+  - delay: 147
+    content: a
+  - delay: 724
+    content: ''''
+  - delay: 764
+    content: ','
+  - delay: 730
+    content: ' '
+  - delay: 312
+    content: ''''
+  - delay: 667
+    content: '2'
+  - delay: 282
+    content: '0'
+  - delay: 189
+    content: '2'
+  - delay: 195
+    content: '1'
+  - delay: 736
+    content: ''''
+  - delay: 499
+    content: ','
+  - delay: 385
+    content: ' '
+  - delay: 684
+    content: ''''
+  - delay: 217
+    content: a
+  - delay: 177
+    content: k
+  - delay: 263
+    content: t
+  - delay: 117
+    content: i
+  - delay: 143
+    content: f
+  - delay: 538
+    content: ''''
+  - delay: 1241
+    content: )
+  - delay: 468
+    content: ;
+  - delay: 390
+    content: "\r\nQuery OK, 2 rows affected (0.004 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 10
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 1189
+    content: s
+  - delay: 213
+    content: e
+  - delay: 98
+    content: l
+  - delay: 101
+    content: e
+  - delay: 180
+    content: c
+  - delay: 121
+    content: t
+  - delay: 319
+    content: ' '
+  - delay: 627
+    content: '*'
+  - delay: 263
+    content: ' '
+  - delay: 181
+    content: f
+  - delay: 96
+    content: r
+  - delay: 116
+    content: o
+  - delay: 217
+    content: m
+  - delay: 219
+    content: ' '
+  - delay: 1477
+    content: k
+  - delay: 209
+    content: e
+  - delay: 94
+    content: 'n'
+  - delay: 288
+    content: d
+  - delay: 142
+    content: a
+  - delay: 380
+    content: r
+  - delay: 131
+    content: a
+  - delay: 200
+    content: a
+  - delay: 216
+    content: 'n'
+  - delay: 858
+    content: ;
+  - delay: 711
+    content: "\r\n+--------------+------------+-----------------+---------------+-------+------------------+\r\n| id_kendaraan | plat_nomor | jenis_kendaraan | merk          | tahun | status_kendaraan |\r\n+--------------+------------+-----------------+---------------+-------+------------------+\r\n|            1 | B 1234 AOA | motor           | honda         |  2022 | aktif            |\r\n|            2 | F 5678 AOA | mobil           | toyota avanza |  2021 | aktif            |\r\n+--------------+------------+-----------------+---------------+-------+------------------+\r\n2 rows in set (0.000 sec)\r\n"
+  - delay: 11
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 36712
+    content: "CREATE TABLE jadwal_sopir (\r\n    ->     id_jadwal INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_sopir INT,\r\n    ->     id_kendaraan INT,\r\n    ->     tanggal DATE,\r\n    ->     jam_mulai TIME,\r\n    ->     jam_selesai TIME,\r\n    ->     rute VARCHAR(100),\r\n    ->     FOREIGN KEY (id_sopir) REFERENCES sopir(id_sopir),\r\n    ->     FOREIGN KEY (id_kendaraan) REFERENCES kendaraan(id_kendaraan)\r"
+  - delay: 9
+    content: |2-
+
+          -> );
+  - delay: 837
+    content: "\r\n"
+  - delay: 15
+    content: "Query OK, 0 rows affected (0.015 sec)\r\n"
+  - delay: 12
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 13826
+    content: "INSERT INTO jadwal_sopir\r\n    -> (id_sopir, id_kendaraan, tanggal, jam_mulai, jam_selesai, rute)\r\n    -> VALUES\r\n    -> (1, 1, '2026-01-10', '08:00:00', '12:00:00', 'Depok - Jakarta'),\r"
+  - delay: 21
+    content: |2-
+
+          -> (2, 2, '2026-01-10', '13:00:00', '17:00:00', 'Depok - Bogor')
+  - delay: 1555
+    content: ;
+  - delay: 1546
+    content: "\r\n"
+  - delay: 5
+    content: "Query OK, 2 rows affected (0.004 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 15
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 1249
+    content: s
+  - delay: 241
+    content: l
+  - delay: 30
+    content: e
+  - delay: 653
+    content: "\e[?25l\e[30;18H   \e[30;18H\e[?25h"
+  - delay: 328
+    content: s
+  - delay: 199
+    content: e
+  - delay: 104
+    content: l
+  - delay: 99
+    content: e
+  - delay: 488
+    content: c
+  - delay: 167
+    content: t
+  - delay: 998
+    content: ' '
+  - delay: 1557
+    content: '*'
+  - delay: 393
+    content: ' '
+  - delay: 131
+    content: f
+  - delay: 137
+    content: r
+  - delay: 102
+    content: o
+  - delay: 236
+    content: m
+  - delay: 207
+    content: ' '
+  - delay: 891
+    content: j
+  - delay: 110
+    content: a
+  - delay: 133
+    content: w
+  - delay: 173
+    content: a
+  - delay: 601
+    content: "\e[?25l\e[30;32H    \e[30;32H\e[?25h"
+  - delay: 520
+    content: j
+  - delay: 396
+    content: a
+  - delay: 428
+    content: d
+  - delay: 228
+    content: w
+  - delay: 221
+    content: a
+  - delay: 604
+    content: l
+  - delay: 343
+    content: _
+  - delay: 455
+    content: s
+  - delay: 161
+    content: o
+  - delay: 228
+    content: p
+  - delay: 184
+    content: i
+  - delay: 115
+    content: r
+  - delay: 495
+    content: ;
+  - delay: 220
+    content: "\r\n+-----------+----------+--------------+------------+-----------+-------------+-----------------+\r\n| id_jadwal | id_sopir | id_kendaraan | tanggal    | jam_mulai | jam_selesai | rute            |\r\n+-----------+----------+--------------+------------+-----------+-------------+-----------------+\r\n|         1 |        1 |            1 | 2026-01-10 | 08:00:00  | 12:00:00    | Depok - Jakarta |\r\n|         2 |        2 |            2 | 2026-01-10 | 13:00:00  | 17:00:00    | Depok - Bogor   |\r\n+-----------+----------+--------------+------------+-----------+-------------+-----------------+\r\n2 rows in set (0.002 sec)\r\n"
+  - delay: 10
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 36891
+    content: "CREATE TABLE perjalanan (\r\n    ->     id_perjalanan INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_jadwal INT,\r\n    ->     jarak_km DECIMAL(5,2),\r\n    ->     bahan_bakar_liter DECIMAL(5,2),\r\n    ->     pendapatan DECIMAL(10,2),\r\n    ->     FOREIGN KEY (id_jadwal) REFERENCES jadwal_sopir(id_jadwal)\r"
+  - delay: 21
+    content: |2-
+
+          -> );
+  - delay: 800
+    content: "\r\n"
+  - delay: 12
+    content: "Query OK, 0 rows affected (0.011 sec)\r\n\nMariaDB [sopir]>\e[1C"
+  - delay: 22690
+    content: "INSERT INTO perjalanan\r\n    -> (id_jadwal, jarak_km, bahan_bakar_liter, pendapatan)\r\n    -> VALUES\r\n    -> (1, 120.5, 15.2, 750000),\r"
+  - delay: 35
+    content: |2-
+
+          -> (2, 95.0, 10.5, 600000),
+  - delay: 4025
+    content: "\e[?25l\e[30;24H        \e[30;24H\e[?25h"
+  - delay: 12381
+    content: '6'
+  - delay: 528
+    content: '0'
+  - delay: 470
+    content: '0'
+  - delay: 450
+    content: '0'
+  - delay: 494
+    content: '0'
+  - delay: 415
+    content: '0'
+  - delay: 880
+    content: )
+  - delay: 430
+    content: ;
+  - delay: 526
+    content: "\r\nQuery OK, 2 rows affected (0.004 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 5
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 1158
+    content: s
+  - delay: 197
+    content: e
+  - delay: 94
+    content: l
+  - delay: 79
+    content: e
+  - delay: 194
+    content: c
+  - delay: 103
+    content: t
+  - delay: 263
+    content: ' '
+  - delay: 486
+    content: '*'
+  - delay: 243
+    content: ' '
+  - delay: 289
+    content: f
+  - delay: 55
+    content: r
+  - delay: 110
+    content: o
+  - delay: 208
+    content: m
+  - delay: 237
+    content: ' '
+  - delay: 673
+    content: p
+  - delay: 166
+    content: e
+  - delay: 81
+    content: r
+  - delay: 112
+    content: j
+  - delay: 110
+    content: a
+  - delay: 126
+    content: l
+  - delay: 102
+    content: a
+  - delay: 106
+    content: 'n'
+  - delay: 83
+    content: a
+  - delay: 152
+    content: 'n'
+  - delay: 595
+    content: ;
+  - delay: 190
+    content: "\r\n+---------------+-----------+----------+-------------------+------------+\r\n| id_perjalanan | id_jadwal | jarak_km | bahan_bakar_liter | pendapatan |\r\n+---------------+-----------+----------+-------------------+------------+\r\n|             1 |         1 |   120.50 |             15.20 |  750000.00 |\r\n|             2 |         2 |    95.00 |             10.50 |  600000.00 |\r\n+---------------+-----------+----------+-------------------+------------+\r\n2 rows in set (0.000 sec)\r\n"
+  - delay: 5
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 49385
+    content: "SELECT COUNT(*) AS jumlah_perjalanan\r\n    -> FROM perjalanan\r"
+  - delay: 18
+    content: |2-
+
+          -> WHERE pendapatan > 600000;
+  - delay: 766
+    content: "\r\n"
+  - delay: 10
+    content: "+-------------------+\r\n| jumlah_perjalanan |\r\n+-------------------+\r\n|                 1 |\r\n+-------------------+\r\n1 row in set (0.010 sec)\r\n"
+  - delay: 5
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 35847
+    content: "SELECT COUNT(*) AS total_perjalanan\r\n"
+  - delay: 21
+    content: '    -> FROM perjalanan;'
+  - delay: 738
+    content: "\r\n+------------------+\r\n| total_perjalanan |\r\n+------------------+\r\n|                2 |\r\n+------------------+\r\n1 row in set (0.000 sec)\r\n"
+  - delay: 10
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 60245
+    content: "SELECT COUNT(*) \r\n    -> FROM nama_tabel\r"
+  - delay: 11
+    content: |2-
+
+          -> WHERE kondisi;
+  - delay: 1014
+    content: "\r\nERROR 1146 (42S02): Table 'sopir.nama_tabel' doesn't exist"
+  - delay: 15
+    content: "\r\nMariaDB [sopir]>\e[1C"
+  - delay: 27884
+    content: "CREATE TABLE pelanggaran (\r\n    ->     id_pelanggaran INT AUTO_INCREMENT PRIMARY KEY,\r\n    ->     id_sopir INT,\r\n    ->     tanggal DATE,\r\n    ->     jenis_pelanggaran VARCHAR(100),\r\n    ->     denda DECIMAL(10,2),\r\n    ->     FOREIGN KEY (id_sopir) REFERENCES sopir(id_sopir)\r"
+  - delay: 34
+    content: |2-
+
+          -> );
+  - delay: 984
+    content: "\r\n"
+  - delay: 11
+    content: "Query OK, 0 rows affected (0.011 sec)\r\n\nMariaDB [sopir]>\e[1C"
+  - delay: 29783
+    content: "INSERT INTO pelanggaran\r\n    -> (id_sopir, tanggal, jenis_pelanggaran, denda)\r\n    -> VALUES\r\n    -> (1, '2026-01-10', 'Melanggar lampu merah', 250000),\r"
+  - delay: 14
+    content: |2-
+
+          -> (2, '2026-01-11', 'Tidak memakai helm', 150000)
+  - delay: 1196
+    content: ;
+  - delay: 520
+    content: "\r\nQuery OK, 2 rows affected (0.003 sec)\r\nRecords: 2  Duplicates: 0  Warnings: 0\r\n"
+  - delay: 14
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 880
+    content: s
+  - delay: 226
+    content: e
+  - delay: 124
+    content: l
+  - delay: 79
+    content: e
+  - delay: 174
+    content: c
+  - delay: 142
+    content: t
+  - delay: 278
+    content: ' '
+  - delay: 1365
+    content: '*'
+  - delay: 304
+    content: ' '
+  - delay: 203
+    content: f
+  - delay: 105
+    content: r
+  - delay: 135
+    content: o
+  - delay: 269
+    content: m
+  - delay: 314
+    content: ' '
+  - delay: 724
+    content: p
+  - delay: 151
+    content: e
+  - delay: 112
+    content: l
+  - delay: 115
+    content: a
+  - delay: 152
+    content: 'n'
+  - delay: 207
+    content: g
+  - delay: 109
+    content: g
+  - delay: 116
+    content: a
+  - delay: 208
+    content: r
+  - delay: 106
+    content: a
+  - delay: 152
+    content: 'n'
+  - delay: 456
+    content: ;
+  - delay: 199
+    content: "\r\n+----------------+----------+------------+-----------------------+-----------+\r\n| id_pelanggaran | id_sopir | tanggal    | jenis_pelanggaran     | denda     |\r\n+----------------+----------+------------+-----------------------+-----------+\r\n|              1 |        1 | 2026-01-10 | Melanggar lampu merah | 250000.00 |\r\n|              2 |        2 | 2026-01-11 | Tidak memakai helm    | 150000.00 |\r\n+----------------+----------+------------+-----------------------+-----------+\r\n2 rows in set (0.000 sec)\r\n"
+  - delay: 28
+    content: "\nMariaDB [sopir]>\e[1C"
+  - delay: 4836
+    content: e
+  - delay: 327
+    content: x
+  - delay: 142
+    content: i
+  - delay: 271
+    content: t
+  - delay: 622
+    content: "\r\nBye"
+  - delay: 32
+    content: "\r\n"
+  - delay: 18
+    content: 'PS C:\Users\lahya\Documents\xiao> '
+  - delay: 639
+    content: "\e[?25l"
+  - delay: 18
+    content: "\e[93me\e[?25h"
+  - delay: 571
+    content: "\e[m\e[?25l"
+  - delay: 23
+    content: "\e[93m\bex\e[?25h"
+  - delay: 127
+    content: "\e[m\e[?25l"
+  - delay: 15
+    content: "\e[93m\e[30;35Hexi\e[?25h"
+  - delay: 1001
+    content: "\e[m\e[?25l"
+  - delay: 13
+    content: "\e[92m\e[30;35Hexit\e[?25h"
+  - delay: 578
+    content: "\e[m"
+  - delay: 16
+    content: "\r\n"
